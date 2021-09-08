@@ -35,6 +35,9 @@ main>.container {
     bottom: 0;
     width: 100 % ;
 }
+thead {
+    font-weight: bold;
+}
 .bsicon {
     color:purple;
 }
