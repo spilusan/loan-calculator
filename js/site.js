@@ -91,6 +91,8 @@ function getInput() {
     }   
     //fill the table, total principal, total interest, monthly payments and total cost areas with the data. 
     function displayNumbers() {
+        //Display the payment
+        document.getElementById("payment").innerHTML = TMP;
         //Display the principal:
         let principal = document.getElementById("loan").value;
         document.getElementById("principal-tot").innerHTML = principal;
