@@ -28,7 +28,7 @@ function getInput() {
     calculateMortgage();
     displayNumbers();
 
-    //Rounding function taken from Mozilla Developer Documentary. This resolves the errors I was getting rounding previously.
+    //Rounding function taken from Mozilla Developer Documentation. This resolves the errors I was getting rounding previously.
     function round(x) {
         return Number.parseFloat(x).toFixed(2);
       }
