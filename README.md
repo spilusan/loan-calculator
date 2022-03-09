@@ -1,2 +1,2 @@
-# mini-site-tem
-Personal template for mini sites for fast deployment of code experiments. 
+# Loan Calculator
+A loan calculator mini site built in html, boostrap, javascript. A project created in my bootcamp. Specs given, code all mine. 
