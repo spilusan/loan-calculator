@@ -92,15 +92,15 @@ function getInput() {
     //fill the table, total principal, total interest, monthly payments and total cost areas with the data. 
     function displayNumbers() {
         //Display the payment
-        document.getElementById("payment").innerHTML = TMP;
+        document.getElementById("payment").innerHTML = '$' + TMP;
         //Display the principal:
         let principal = document.getElementById("loan").value;
-        document.getElementById("principal-tot").innerHTML = principal;
+        document.getElementById("principal-tot").innerHTML = '$' + principal;
         //display the total interest:
         sum = round(sum);
-        document.getElementById("interest-tot").innerHTML = sum;
+        document.getElementById("interest-tot").innerHTML ='$' + sum;
         //display total cost
-        document.getElementById("cost-tot").innerHTML = +principal + +sum;
+        document.getElementById("cost-tot").innerHTML = '$' + (+principal + +sum);
         //Display amortization table. 
         TMP = round(TMP);
         let table = "";

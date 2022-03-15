@@ -4,6 +4,7 @@
     --dark-color: #292929;
     --white-color: #e7e7e7;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');
 body {
     color: var(--dark-color);
 }
@@ -22,8 +23,23 @@ footer .social>a:hover {
     opacity: 0.90;
     color: var(--secondary-color);
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     color: var(--primary-color);
+}
+h3, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+h6 {
+    color: var(--white-color);
+}
+.f-text {
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 800;      
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(12,152,167,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 main>.container {
     padding: 60px 15px 0;
