@@ -60,8 +60,36 @@ thead {
 .jsicon {
     color:rgb(226, 211, 4);
 }
-.html5icon {
-    color: orangered;
+.dollar{
+	position: relative;
+	image: url(../img/dollars.png);
+    left: 200px;
+    bottom: 2;
+}
+.bike{
+	position: relative;
+	image: url(../img/bike.png);
+    left: 200px;
+    bottom: 2;
+}
+.car{
+	position: relative;
+	image: url(../img/car.png);
+    left: 200px;
+    bottom: 2;
+}
+.education{
+	position: relative;
+	image: url(../img/Education.png);
+    left: 200px;
+    bottom: 2;
+}
+
+.house{
+	position: relative;
+	image: url(../img/house.png);
+    left: 200px;
+    bottom: 2;
 }
 .cssicon {
     color: rgb(11, 82, 214);
